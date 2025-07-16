@@ -19,23 +19,23 @@ __Constraints__:
 From the result of each question, you must drop any entry with an aggregated yearly number of transactions less or equal to 10 in 2021.
 
 __Folder Straucture__
-Interview
+- Interview
    - data
    - results
    - src
    - intermediate
 
-__data__ - This folder has data extracted from the URL. It is the output of extraction step.
-__results__ - This folder has the answers to the question listed above step.
-__src__ - This folder has 3 python files. extraction.py, modules.py and transformation.py.
-__intermediate__ - This folder has some intermediate transformation date.
+- __data__ - This folder has data extracted from the URL. It is the output of extraction step.
+- __results__ - This folder has the answers to the question listed above step.
+- __src__ - This folder has 3 python files. extraction.py, modules.py and transformation.py.
+- __intermediate__ - This folder has some intermediate transformation date.
 
 
-__How to run the script__
-Download the zip file -> unzip the file -> open the vscode from the fodler -> open terminal -> navigate to src folder -> run the command 'python extraction.py' -> run the command 'python transformation.py'
+- __How to run the script__
+clone the repo -> open the vscode from the fodler -> open terminal -> navigate to src folder -> run the command 'python extraction.py' -> run the command 'python transformation.py'
 
-python extraction.py - creates two folders data and results. Extracts data and stores it in the data folder.
-python transformation.py - answers all the questions [1 to 4] and stores the text files in results folder.
+__python extraction.py__ - creates two folders data and results. Extracts data and stores it in the data folder.
+__python transformation.py__ - answers all the questions [1 to 4] and stores the text files in results folder.
 
 
 __modules.py__ - python file has function to perform modular tasks.
