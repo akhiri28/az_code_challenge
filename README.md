@@ -32,10 +32,10 @@ __Folder Straucture__
 
 
 - __How to run the script__
-clone the repo -> open the vscode from the fodler -> open terminal -> navigate to src folder -> run the command 'python extraction.py' -> run the command 'python transformation.py'
+- clone the repo -> open the vscode from the fodler -> open terminal -> navigate to src folder -> run the command 'python extraction.py' -> run the command 'python transformation.py'
 
-__python extraction.py__ - creates two folders data and results. Extracts data and stores it in the data folder.
-__python transformation.py__ - answers all the questions [1 to 4] and stores the text files in results folder.
+- __python extraction.py__ - creates two folders data and results. Extracts data and stores it in the data folder.
+- __python transformation.py__ - answers all the questions [1 to 4] and stores the text files in results folder.
 
 
 __modules.py__ - python file has function to perform modular tasks.
